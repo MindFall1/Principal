@@ -1,0 +1,49 @@
+body{
+  background-color: red;
+}
+.painel{
+  font-size: 15px;
+  margin: auto;
+  background-color: White;
+  width: 300px;
+  height: 660px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: cursive;
+}
+#Sim{
+  width: 4rem;
+  height: 2rem;
+  border: 2px solid red;
+  outline: none;
+  font-family: cursive;
+  background-color: transparent;
+  transition: 2s;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: -60px;
+}
+#Sim{
+  box-shadow: inset 0px 0px 10px red;
+}
+#Nao{
+  position: absolute;
+  width: 4rem;
+  height: 2rem;
+  border: 2px solid red;
+  outline: none;
+  font-family: cursive;
+  background-color: transparent;
+  transition: 2s;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#Nao{
+  box-shadow: inset 0px 0px 10px red;
+}
